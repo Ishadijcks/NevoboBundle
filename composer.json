@@ -1,6 +1,7 @@
 {
   "name": "punch/nevobo-bundle",
   "description": "A Symfony bundle to query the Nevobo v1 API",
+  "version": "1.0.0",
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
