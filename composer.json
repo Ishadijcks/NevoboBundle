@@ -1,0 +1,33 @@
+{
+  "name": "punch/nevobo-bundle",
+  "description": "A Symfony bundle to query the Nevobo v1 API",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Isha",
+      "email": "ishadijcks@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Punch\\NevoboBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KnpU\\LoremIpsumBundle\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "symfony/config": "^5.3",
+    "symfony/dependency-injection": "^5.3",
+    "symfony/http-kernel": "^5.3",
+    "symfony/serializer": "^5.3",
+    "symfony/cache": "^5.3"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^5.3"
+  }
+}
