@@ -1,10 +1,9 @@
 <?php
 
-namespace Punch\Tests\Service;
+namespace Punch\NevoboBundle\Tests\Service;
 
 use Punch\NevoboBundle\PunchNevoboBundle;
 use Punch\NevoboBundle\Service\NevoboClient;
-use PHPUnit\Framework\TestCase;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel;
 

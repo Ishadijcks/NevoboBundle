@@ -17,7 +17,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "KnpU\\LoremIpsumBundle\\Tests\\": "tests/"
+      "Punch\\NevoboBundle\\Tests\\": "tests/"
     }
   },
   "require": {
